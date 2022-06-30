@@ -12,6 +12,7 @@
 		C88CC524286DA59700CB5411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88CC523286DA59700CB5411 /* Assets.xcassets */; };
 		C88CC527286DA59700CB5411 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88CC526286DA59700CB5411 /* Preview Assets.xcassets */; };
 		C88CC52E286DA62500CB5411 /* MyVstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88CC52D286DA62500CB5411 /* MyVstackView.swift */; };
+		C88CC530286DB2BC00CB5411 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88CC52F286DB2BC00CB5411 /* MyTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C88CC523286DA59700CB5411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C88CC526286DA59700CB5411 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C88CC52D286DA62500CB5411 /* MyVstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVstackView.swift; sourceTree = "<group>"; };
+		C88CC52F286DB2BC00CB5411 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				C88CC523286DA59700CB5411 /* Assets.xcassets */,
 				C88CC525286DA59700CB5411 /* Preview Content */,
 				C88CC52D286DA62500CB5411 /* MyVstackView.swift */,
+				C88CC52F286DB2BC00CB5411 /* MyTextView.swift */,
 			);
 			path = Swift_project;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C88CC522286DA59600CB5411 /* ContentView.swift in Sources */,
+				C88CC530286DB2BC00CB5411 /* MyTextView.swift in Sources */,
 				C88CC520286DA59600CB5411 /* Swift_projectApp.swift in Sources */,
 				C88CC52E286DA62500CB5411 /* MyVstackView.swift in Sources */,
 			);
