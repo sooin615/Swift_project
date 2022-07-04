@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C83B92A52872BF10002AE0FA /* MyWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B92A42872BF10002AE0FA /* MyWebview.swift */; };
 		C88CC520286DA59600CB5411 /* Swift_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88CC51F286DA59600CB5411 /* Swift_projectApp.swift */; };
 		C88CC522286DA59600CB5411 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88CC521286DA59600CB5411 /* ContentView.swift */; };
 		C88CC524286DA59700CB5411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88CC523286DA59700CB5411 /* Assets.xcassets */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C83B92A42872BF10002AE0FA /* MyWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebview.swift; sourceTree = "<group>"; };
+		C83B92A62872CB5C002AE0FA /* Swift-project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Swift-project-Info.plist"; sourceTree = SOURCE_ROOT; };
 		C88CC51C286DA59600CB5411 /* Swift_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88CC51F286DA59600CB5411 /* Swift_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_projectApp.swift; sourceTree = "<group>"; };
 		C88CC521286DA59600CB5411 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,12 +58,14 @@
 		C88CC51E286DA59600CB5411 /* Swift_project */ = {
 			isa = PBXGroup;
 			children = (
+				C83B92A62872CB5C002AE0FA /* Swift-project-Info.plist */,
 				C88CC51F286DA59600CB5411 /* Swift_projectApp.swift */,
 				C88CC521286DA59600CB5411 /* ContentView.swift */,
 				C88CC523286DA59700CB5411 /* Assets.xcassets */,
 				C88CC525286DA59700CB5411 /* Preview Content */,
 				C88CC52D286DA62500CB5411 /* MyVstackView.swift */,
 				C88CC52F286DB2BC00CB5411 /* MyTextView.swift */,
+				C83B92A42872BF10002AE0FA /* MyWebview.swift */,
 			);
 			path = Swift_project;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 				C88CC530286DB2BC00CB5411 /* MyTextView.swift in Sources */,
 				C88CC520286DA59600CB5411 /* Swift_projectApp.swift in Sources */,
 				C88CC52E286DA62500CB5411 /* MyVstackView.swift in Sources */,
+				C83B92A52872BF10002AE0FA /* MyWebview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +284,7 @@
 				DEVELOPMENT_TEAM = NZQ44L48C7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-project-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +314,7 @@
 				DEVELOPMENT_TEAM = NZQ44L48C7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-project-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
